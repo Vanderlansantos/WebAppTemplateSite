@@ -6,9 +6,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '3d3e67be-6497-422e-8afe-81d0a288ebeb'
-  imageRepository: 'webapptemplatesite'
-  containerRegistry: 'testecontainerregistryvanderlan.azurecr.io'
+  dockerRegistryServiceConnection: ''
+  imageRepository: ''
+  containerRegistry: ''
   dockerfilePath: '$(Build.SourcesDirectory)/WebAppTemplateSite/Dockerfile.dockerfile'
   tag: '$(Build.BuildId)'
 
